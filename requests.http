@@ -1,0 +1,23 @@
+POST http://localhost:8080/categories
+Content-Type: application/json
+
+{
+  "name": "Elektroniikka",
+  "products": [
+    {
+      "productName": "Älypuhelin",
+      "price": 699.0,
+      "supplier_id": 1
+    },
+    {
+      "productName": "Kannettava",
+      "price": 1299.0,
+      "supplier_id": 1
+    }
+  ]
+}
+
+###
+
+GET  http://localhost:8080/suppliers/samira.morgan@ecotech.com
+
